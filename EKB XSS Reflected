@@ -1,0 +1,4 @@
+XSS reflected in EKB 
+Steps To Reproduce:
+     .Go to https://study.ekb.eg/search
+     .Enter This payload <script>alert(5);</script> in query parameter
